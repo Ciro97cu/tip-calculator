@@ -1,0 +1,53 @@
+/***** css rules star selector *****/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+}
+
+/* credit */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* reset */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* gaps */
+.row_gap {
+    row-gap: 5px;
+}
+
+.row_gap_xl {
+    row-gap: 15px;
+}
+
+.row_gap_xxl {
+    row-gap: 30px;
+}
+
+.column_gap {
+    column-gap: 40px;
+}
+
+/* colors */
+.lol {
+    color: hsl(183, 100%, 15%);
+    color: hsl(186, 14%, 43%);
+    color: hsl(184, 14%, 56%);
+    color: hsl(185, 41%, 84%);
+    color: hsl(189, 41%, 97%);
+    color: hsl(0, 0%, 100%);
+}
+
+/* height */
+.h_100 {
+    height: 100%;
+}

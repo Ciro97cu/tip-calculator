@@ -1,0 +1,79 @@
+body {
+    background-color: hsl(185, 41%, 84%);
+}
+
+h1.title {
+    font-size: 35px;
+    letter-spacing: 10px;
+    width: 150px;
+    word-break: break-all;
+    color: hsl(183, 100%, 15%);
+}
+
+.container_principal {
+    max-width: 900px;
+}
+
+.container_principal {
+    border-radius: 20px;
+}
+
+.label_bill,
+.label_tip {
+    color: hsl(186, 14%, 43%);
+}
+
+input.input_number {
+    background-color: hsl(189, 41%, 97%);
+    font-size: 20px;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+}
+
+input.input_number::placeholder {
+    color: hsl(184, 14%, 56%);
+    font-family: FontAwesome;
+    text-align: left;
+}
+
+.button_tip {
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    font-size: 20px;
+}
+
+.reset_button {
+    background-color: hsl(173, 61%, 77%);
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+}
+
+.input_tip {
+    font-size: 20px;
+    color: hsl(186, 14%, 43%);
+    text-align: right;
+    background-color: hsl(189, 41%, 97%);
+}
+
+.input_tip::placeholder {
+    text-align: right;
+    color: hsl(186, 14%, 43%);
+}
+
+.feedback_square {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+}
+
+.feedback_top {
+    font-size: 20px;
+}
+
+.feedback_bottom {
+    color: hsl(184, 14%, 56%);
+}
+
+div.col-6.text-end {
+    color: hsl(173, 61%, 77%);
+    font-size: 35px;
+}
