@@ -19,8 +19,8 @@ const buttonReset = document.getElementById("reset_js");
 function operation(percentage) {
     let totalCost = (inputBill.value * percentage).toFixed(2);
     let totalPerPerson = (totalCost / inputPeople.value).toFixed(2);
-    tipAmount.innerText = `$ ${totalCost}`
-    total.innerText = `$ ${totalPerPerson}`
+    tipAmount.innerText = `$ ${totalCost}`;
+    total.innerText = `$ ${totalPerPerson}`;
 }
 
 function resetColorButtons() {
@@ -30,7 +30,6 @@ function resetColorButtons() {
     buttonTip25.classList.remove("button-active");
     buttonTip50.classList.remove("button-active");
 }
-
 // ~~~~~~~~~~ END FUNCTIONS ~~~~~~~~~~
 
 buttonTip5.addEventListener("click", () => {
@@ -73,7 +72,6 @@ inputCustom.addEventListener("input", () => {
         resetColorButtons();
         let percentage = inputCustom.value / 100;
         operation(percentage);
-
     })
 })
 
@@ -83,5 +81,5 @@ buttonReset.addEventListener("click", () => {
     inputBill.value = "";
     inputCustom.value = "";
     inputPeople.value = "";
-    resetColorButtons()
+    resetColorButtons();
 })
