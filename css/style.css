@@ -2,14 +2,6 @@ body {
     background-color: hsl(185, 41%, 84%);
 }
 
-h1.title {
-    font-size: 35px;
-    letter-spacing: 10px;
-    width: 150px;
-    word-break: break-all;
-    color: hsl(183, 100%, 15%);
-}
-
 .container_principal {
     max-width: 900px;
 }
