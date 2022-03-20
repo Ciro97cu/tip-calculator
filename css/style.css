@@ -17,7 +17,7 @@ body {
 
 input.input_number {
     background-color: var(--Very-light-grayish-cyan);
-    font-size: 20px;
+    font-size: 24px;
     text-align: right;
     color: var(--Very-dark-cyan);
 }
@@ -31,7 +31,7 @@ input.input_number::placeholder {
 .button_tip {
     background-color: var(--Very-dark-cyan);
     color: white;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .reset_button {
@@ -41,13 +41,14 @@ input.input_number::placeholder {
 }
 
 .input_tip {
-    font-size: 20px;
+    font-size: 24px;
     color: var(--Dark-grayish-cyan);
     text-align: right;
     background-color: var(--Very-light-grayish-cyan);
 }
 
 .input_tip::placeholder {
+    font-size: 18px;
     text-align: right;
     color: var(--Dark-grayish-cyan);
 }
@@ -58,7 +59,7 @@ input.input_number::placeholder {
 }
 
 .feedback_top {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .feedback_bottom {
@@ -67,5 +68,11 @@ input.input_number::placeholder {
 
 div.col-6.text-end {
     color: var(--Strong-cyan);
-    font-size: 35px;
+    font-size: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

@@ -51,3 +51,23 @@ h1, h2, h3, h4, h5, h6, p {
 .h_100 {
     height: 100%;
 }
+
+/* hovers */
+.button_tip:hover {
+    background-color: var(--Strong-cyan);
+    color: var(--Very-dark-cyan);
+}
+
+.button-active{
+    background-color: var(--Strong-cyan) !important;
+    color: var(--Very-dark-cyan) !important;
+}
+
+.reset_button:hover {
+    background-color: var(--Light-grayish-cyan);
+}
+
+/* focus */
+input:focus {
+    outline: 2px solid var(--Strong-cyan);
+}

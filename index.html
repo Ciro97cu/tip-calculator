@@ -48,7 +48,8 @@
                 <div class="row row_gap">
                     <label class="label_bill col-sm-12" for="Bill">Bill</label>
                     <div class="col-sm-12 ">
-                        <input class="w-100 input_number py-2 px-3 rounded-3 border-0" placeholder="$" type="number">
+                        <input id="bill_js" class="w-100 input_number py-2 px-3 rounded-3 border-0" placeholder="$"
+                            type="number">
                     </div>
                 </div>
 
@@ -58,22 +59,23 @@
                         <label class="label_tip" for="Tip">Select Tip %</label>
                     </div>
                     <div class="col-6 col-md-4">
-                        <button class="w-100 py-2 button_tip border-0 rounded-3">5%</button>
+                        <button id="button_js5" class="w-100 py-2 button_tip border-0 rounded-3">5%</button>
                     </div>
                     <div class="col-6 col-md-4">
-                        <button class="w-100 py-2 button_tip border-0 rounded-3">10%</button>
+                        <button id="button_js10" class="w-100 py-2 button_tip border-0 rounded-3">10%</button>
                     </div>
                     <div class="col-6 col-md-4">
-                        <button class="w-100 py-2 button_tip border-0 rounded-3">15%</button>
+                        <button id="button_js15" class="w-100 py-2 button_tip border-0 rounded-3">15%</button>
                     </div>
                     <div class="col-6 col-md-4">
-                        <button class="w-100 py-2 button_tip border-0 rounded-3">25%</button>
+                        <button id="button_js25" class="w-100 py-2 button_tip border-0 rounded-3">25%</button>
                     </div>
                     <div class="col-6 col-md-4">
-                        <button class="w-100 py-2 button_tip border-0 rounded-3">50%</button>
+                        <button id="button_js50" class="w-100 py-2 button_tip border-0 rounded-3">50%</button>
                     </div>
                     <div class="col-6 col-md-4">
-                        <input class="w-100 py-2 pe-3 input_tip border-0 rounded-3" type="number" placeholder="Custom">
+                        <input id="custom_js" class="w-100 py-2 pe-3 input_tip border-0 rounded-3" type="number"
+                            placeholder="Custom">
                     </div>
                 </div>
 
@@ -81,8 +83,8 @@
                 <div class="row row_gap mt-4">
                     <label class="label_bill col-sm-12" for="Bill">Number of People</label>
                     <div class="col-sm-12 ">
-                        <input class="w-100 input_number py-2 px-3 rounded-3 border-0" placeholder="&#xf007"
-                            type="number">
+                        <input id="people_js" class="w-100 input_number py-2 px-3 rounded-3 border-0"
+                            placeholder="&#xf007;" type="number">
                     </div>
                 </div>
 
@@ -101,7 +103,7 @@
                                     <div class="col-12 feedback_bottom">/ person</div>
                                 </div>
                             </div>
-                            <div class="col-6 text-end">$4.27</div>
+                            <div id="tipAmount_js" class="col-6 text-end">$0.00</div>
                         </div>
                     </div>
                     <!-- total -->
@@ -113,12 +115,12 @@
                                     <div class="col-12 feedback_bottom">/ person</div>
                                 </div>
                             </div>
-                            <div class="col-6 text-end">$32.79</div>
+                            <div id="total_js" class="col-6 text-end">$00.00</div>
                         </div>
                     </div>
                     <!-- button reset -->
                     <div class="col-sm-12 align-self-end">
-                        <button class=" w-100 reset_button py-2 rounded-3 border-0">RESET</button>
+                        <button id="reset_js" class=" w-100 reset_button py-2 rounded-3 border-0">RESET</button>
                     </div>
                 </div>
             </div>
