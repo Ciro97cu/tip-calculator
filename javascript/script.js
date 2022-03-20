@@ -83,4 +83,5 @@ buttonReset.addEventListener("click", () => {
     inputBill.value = "";
     inputCustom.value = "";
     inputPeople.value = "";
+    resetColorButtons()
 })
