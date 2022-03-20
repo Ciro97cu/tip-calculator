@@ -6,7 +6,17 @@
     font-family: 'Space Mono', monospace;
 }
 
-/* credit */
+/* root */
+:root {
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --Grayish-cyan: hsl(184, 14%, 56%);
+    --Light-grayish-cyan: hsl(185, 41%, 84%);
+    --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --Strong-cyan: hsl(172, 67%, 45%);
+}
+
+/* credits */
 .attribution { 
     font-size: 11px; text-align: center; 
 }
@@ -35,16 +45,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .column_gap {
     column-gap: 40px;
-}
-
-/* colors */
-.lol {
-    color: hsl(183, 100%, 15%);
-    color: hsl(186, 14%, 43%);
-    color: hsl(184, 14%, 56%);
-    color: hsl(185, 41%, 84%);
-    color: hsl(189, 41%, 97%);
-    color: hsl(0, 0%, 100%);
 }
 
 /* height */

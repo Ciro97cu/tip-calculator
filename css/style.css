@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(185, 41%, 84%);
+    background-color: var(--Light-grayish-cyan);
 }
 
 .container_principal {
@@ -12,48 +12,48 @@ body {
 
 .label_bill,
 .label_tip {
-    color: hsl(186, 14%, 43%);
+    color: var(--Dark-grayish-cyan);
 }
 
 input.input_number {
-    background-color: hsl(189, 41%, 97%);
+    background-color: var(--Very-light-grayish-cyan);
     font-size: 20px;
     text-align: right;
-    color: hsl(183, 100%, 15%);
+    color: var(--Very-dark-cyan);
 }
 
 input.input_number::placeholder {
-    color: hsl(184, 14%, 56%);
+    color: var(--Grayish-cyan);
     font-family: FontAwesome;
     text-align: left;
 }
 
 .button_tip {
-    background-color: hsl(183, 100%, 15%);
+    background-color: var(--Very-dark-cyan);
     color: white;
     font-size: 20px;
 }
 
 .reset_button {
-    background-color: hsl(173, 61%, 77%);
-    color: hsl(183, 100%, 15%);
+    background-color: var(--Strong-cyan);
+    color: var(--Very-dark-cyan);
     font-size: 20px;
 }
 
 .input_tip {
     font-size: 20px;
-    color: hsl(186, 14%, 43%);
+    color: var(--Dark-grayish-cyan);
     text-align: right;
-    background-color: hsl(189, 41%, 97%);
+    background-color: var(--Very-light-grayish-cyan);
 }
 
 .input_tip::placeholder {
     text-align: right;
-    color: hsl(186, 14%, 43%);
+    color: var(--Dark-grayish-cyan);
 }
 
 .feedback_square {
-    background-color: hsl(183, 100%, 15%);
+    background-color: var(--Very-dark-cyan);
     border-radius: 10px;
 }
 
@@ -62,10 +62,10 @@ input.input_number::placeholder {
 }
 
 .feedback_bottom {
-    color: hsl(184, 14%, 56%);
+    color: var(--Grayish-cyan);
 }
 
 div.col-6.text-end {
-    color: hsl(173, 61%, 77%);
+    color: var(--Strong-cyan);
     font-size: 35px;
 }
