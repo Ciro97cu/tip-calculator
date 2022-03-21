@@ -68,7 +68,7 @@ input.input_number::placeholder {
 
 div.col-6.text-end {
     color: var(--Strong-cyan);
-    font-size: 30px;
+    font-size: 25px;
 }
 
 input::-webkit-outer-spin-button,

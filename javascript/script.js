@@ -1,3 +1,20 @@
+// ~~~~~~~~~~ START FUNCTIONS ~~~~~~~~~~
+function operation(percentage) {
+    let totalCost = (inputBill.value * percentage).toFixed(2);
+    let totalPerPerson = (totalCost / inputPeople.value).toFixed(2);
+    tipAmount.innerText = `$ ${totalCost}`;
+    total.innerText = `$ ${totalPerPerson}`;
+}
+
+function resetColorButtons() {
+    buttonTip5.classList.remove("button-active");
+    buttonTip10.classList.remove("button-active");
+    buttonTip15.classList.remove("button-active");
+    buttonTip25.classList.remove("button-active");
+    buttonTip50.classList.remove("button-active");
+    buttonReset.removeAttribute("disabled");
+}
+// ~~~~~~~~~~ END FUNCTIONS ~~~~~~~~~~
 const inputBill = document.getElementById("bill_js");
 
 const buttonTip5 = document.getElementById("button_js5");
@@ -15,22 +32,7 @@ const total = document.getElementById("total_js");
 
 const buttonReset = document.getElementById("reset_js");
 
-// ~~~~~~~~~~ START FUNCTIONS ~~~~~~~~~~
-function operation(percentage) {
-    let totalCost = (inputBill.value * percentage).toFixed(2);
-    let totalPerPerson = (totalCost / inputPeople.value).toFixed(2);
-    tipAmount.innerText = `$ ${totalCost}`;
-    total.innerText = `$ ${totalPerPerson}`;
-}
-
-function resetColorButtons() {
-    buttonTip5.classList.remove("button-active");
-    buttonTip10.classList.remove("button-active");
-    buttonTip15.classList.remove("button-active");
-    buttonTip25.classList.remove("button-active");
-    buttonTip50.classList.remove("button-active");
-}
-// ~~~~~~~~~~ END FUNCTIONS ~~~~~~~~~~
+buttonReset.setAttribute("disabled", true);
 
 buttonTip5.addEventListener("click", () => {
     resetColorButtons();
