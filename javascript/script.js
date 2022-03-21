@@ -4,6 +4,7 @@ function operation(percentage) {
     let totalPerPerson = (totalCost / inputPeople.value).toFixed(2);
     tipAmount.innerText = `$ ${totalCost}`;
     total.innerText = `$ ${totalPerPerson}`;
+
 }
 
 function resetColorButtons() {
@@ -84,4 +85,5 @@ buttonReset.addEventListener("click", () => {
     inputCustom.value = "";
     inputPeople.value = "";
     resetColorButtons();
+    buttonReset.setAttribute("disabled", true);
 })
